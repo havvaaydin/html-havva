@@ -15,11 +15,51 @@ h1 {
 }
 
 p {
-    color: red;
+    color: rgb(25, 0, 255);
     margin: 120px;
+    /* Tablolar */
+table {
+    border-collapse: collapse;
+    margin-top: 1rem;
 }
 
-table, th, td{
-    table, th, td
-    border: 1px; solid red;
+th, td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid;
+}
+
+/* Araba Markaları Tablosu */
+.red-border {
+    width: 90%;
+}
+
+.red-border th, .red-border td {
+    border-color: red;
+}
+
+/* Kişisel Bilgiler Tablosu */
+.blue-border {
+    width: 90%;
+}
+
+.blue-border th, .blue-border td {
+    border-color: blue;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004080;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+div{
+    width: 300px;
+    margin: auto;
 }
